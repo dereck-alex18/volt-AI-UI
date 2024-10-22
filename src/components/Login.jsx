@@ -1,4 +1,4 @@
-import { FaRegEnvelope } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -49,7 +49,9 @@ function Login() {
             <p className="text-white text-base">
               Don't have an account yet?{" "}
               <a href="" className="text-emerald-400 hover:underline">
+                <Link className="text-emerald-400 hover:underline" to="/register">
                 Sign Up
+                </Link>
               </a>
             </p>
           </form>
